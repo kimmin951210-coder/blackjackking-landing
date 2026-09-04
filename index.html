@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>블랙잭 킹</title>
+  <title>블랙잭킹</title>
 
   <style>
     * {
@@ -23,15 +23,13 @@
       justify-content: center;
     }
 
-    /* 전체 랜딩페이지 */
     .wrapper {
       position: relative;
       width: 100%;
-      max-width: 891px;
+      max-width: 941px;
       margin: 0 auto;
     }
 
-    /* PC 화면 */
     @media (min-width: 900px) {
       .wrapper {
         width: 45%;
@@ -39,18 +37,17 @@
       }
     }
 
-    /* 랜딩 이미지 */
     .wrapper img {
+      display: block;
       width: 100%;
       height: auto;
-      display: block;
     }
 
     /* 클릭 영역 공통 */
     .click-zone {
       position: absolute;
-      left: 2.8%;
-      width: 94.4%;
+      left: 3.4%;
+      width: 91.7%;
       display: block;
       cursor: pointer;
       z-index: 10;
@@ -58,26 +55,26 @@
 
     /* 1. 생방송 공지방 */
     .zone1 {
-      top: 42.3%;
-      height: 12.5%;
+      top: 50%;
+      height: 8.9%;
     }
 
     /* 2. 카카오톡 문의 */
     .zone2 {
-      top: 55.9%;
-      height: 12.5%;
+      top: 59%;
+      height: 10%;
     }
 
     /* 3. 텔레그램 문의 */
     .zone3 {
-      top: 69.9%;
-      height: 12.5%;
+      top: 69.8%;
+      height: 10%;
     }
 
-    /* 4. 승부사 킹 가족방 */
+    /* 4. 블랙잭킹 가족방 */
     .zone4 {
-      top: 84.0%;
-      height: 12.5%;
+      top: 80%;
+      height: 10%;
     }
   </style>
 </head>
@@ -89,7 +86,7 @@
     <!-- 랜딩 이미지 -->
     <img
       src="./landing.png"
-      alt="블랙잭 킹 랜딩페이지"
+      alt="블랙잭킹 랜딩페이지"
     />
 
     <!-- 1. 생방송 공지방 -->
@@ -119,13 +116,13 @@
       aria-label="텔레그램 문의">
     </a>
 
-    <!-- 4. 승부사 킹 가족방 -->
+    <!-- 4. 블랙잭킹 가족방 -->
     <a
       class="click-zone zone4"
       href="https://open.kakao.com/o/gJqGHqLi"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="승부사 킹 가족방">
+      aria-label="블랙잭킹 가족방">
     </a>
 
   </div>
